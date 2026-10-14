@@ -3,7 +3,7 @@ name: Collecte Vélib
 on:
   schedule:
     # Toutes les 30 minutes
-    - cron: "7,37 * * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 permissions:
