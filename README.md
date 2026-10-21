@@ -88,6 +88,25 @@ Scénario Dataiku "Rapport Vélib quotidien" :
 - Modèle simple de prévision du risque de station vide.
 - Alertes sur les règles de qualité en échec.
 - Historique conservé en plus de la vue de la veille.
+- ## Aperçu du projet
+
+### Flow Dataiku
+![Flow](docs/images/01-flow.png.png)
+
+### Règles de qualité des données
+![Qualité](docs/images/02-qualite.png.png)
+
+### Dataset agrégé par station et par heure
+![Agrégation](docs/images/03-agg.png.png)
+
+### Dashboard
+![Dashboard](docs/images/04-dashboard.png.png)
+
+### Scénario d'automatisation
+![Scénario](docs/images/05-scenario.png.png)
+
+### Rapport reçu par mail
+![Mail](docs/images/06-mail.png.png)
 
 ## Auteur
 
