@@ -33,7 +33,16 @@ jobs:
 
       - name: Lancer la collecte
         run: python collect.py
-
+      - name: Fusionner les fichiers journaliers
+        run: |
+          # Fichier cumulé des statuts : un seul en-tête puis toutes les lignes
+          premier=$(ls data/velib_status_2*.csv | head -n 1)
+          head -n 1 "$premier" > data/velib_status_all.csv
+          for f in data/velib_status_2*.csv; do tail -n +2 "$f" >> data/velib_status_all.csv; done
+          # Fichier cumulé de la météo
+          premier=$(ls data/meteo_2*.csv | head -n 1)
+          head -n 1 "$premier" > data/meteo_all.csv
+          for f in data/meteo_2*.csv; do tail -n +2 "$f" >> data/meteo_all.csv; done
       - name: Enregistrer les données
         run: |
           git config user.name "velib-bot"
