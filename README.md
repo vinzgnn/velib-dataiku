@@ -91,22 +91,22 @@ Scénario Dataiku "Rapport Vélib quotidien" :
 - ## Aperçu du projet
 
 ### Flow Dataiku
-![Flow](docs/images/01-flow.png.png)
+![Flow](docs/images/01-flow.png)
 
 ### Règles de qualité des données
-![Qualité](docs/images/02-qualite.png.png)
+![Qualité](docs/images/02-qualite.png)
 
 ### Dataset agrégé par station et par heure
-![Agrégation](docs/images/03-agg.png.png)
+![Agrégation](docs/images/03-agg.png)
 
 ### Dashboard
-![Dashboard](docs/images/04-dashboard.png.png)
+![Dashboard](docs/images/04-dashboard.png)
 
 ### Scénario d'automatisation
-![Scénario](docs/images/05-scenario.png.png)
+![Scénario](docs/images/05-scenario.png)
 
 ### Rapport reçu par mail
-![Mail](docs/images/06-mail.png.png)
+![Mail](docs/images/06-mail.png)
 
 ## Auteur
 
