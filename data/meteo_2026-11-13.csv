@@ -1,3 +1,4 @@
 collected_at,temperature_2m,apparent_temperature,precipitation,rain,wind_speed_10m,weather_code
 2026-11-13T00:33:55Z,5.5,2.4,0.0,0.0,9.2,1
 2026-11-13T07:13:33Z,4.1,1.7,0.0,0.0,4.8,0
+2026-11-13T15:30:23Z,10.4,7.4,0.0,0.0,8.5,2
